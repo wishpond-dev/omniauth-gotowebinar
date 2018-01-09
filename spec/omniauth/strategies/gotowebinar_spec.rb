@@ -25,7 +25,7 @@ describe OmniAuth::Strategies::GoToWebinar do
 
     describe '#client' do
       it 'has correct GoToWebinar site' do
-        subject.client.site.should eq('https://api.citrixonline.com')
+        subject.client.site.should eq('https://api.getgo.com')
       end
 
       it 'has correct authorize url' do

@@ -6,7 +6,7 @@ module OmniAuth
       option :name, 'gotowebinar'
 
       option :client_options, {
-        :site           => 'https://api.citrixonline.com',
+        :site           => 'https://api.getgo.com',
         :authorize_url  => '/oauth/authorize',
         :token_url      => '/oauth/access_token'
       }
